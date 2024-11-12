@@ -1,0 +1,4 @@
+Hello, this is a test file.
+Writing more lines of text.
+This is new data being appended to the file.
+Adding another line of text.

@@ -12,7 +12,7 @@ public:
 	virtual void func(){
 		cout<<"Base Class"<<endl;
 	}
-	~A(){
+	virtual ~A(){
 		cout<<"Destructor A"<<endl;
 		func();
 	}
@@ -30,11 +30,17 @@ public:
 		cout<<"Derived Class"<<endl;
 	}
 	~B(){
-		cout<<"Destructor		 B"<<endl;
+		cout<<"Destructor B"<<endl;
 		func();
 	}
 };
 
+class C : public B{
+	C(){
+		cout<<"Constructor C"<<endl;
+		func();
+	}
+};
 
 
 
