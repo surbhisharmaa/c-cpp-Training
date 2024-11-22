@@ -1,0 +1,34 @@
+Inside Constructor
+obj1's stuff
+40 50
+
+obj2's stuff
+41 50
+obj1's stuff
+41 50
+
+obj3's stuff
+42 50
+obj2's stuff
+42 50
+obj1's stuff
+42 50
+
+Inside Constructor
+obj4's stuff
+80 90
+Assignment operator
+0x61fef8 0x61fef0
+obj4's stuff
+100 50
+obj3's stuff
+100 50
+obj2's stuff
+100 50
+obj1's stuff
+100 50
+
+Inside destructor
+Inside destructor
+Inside destructor
+Inside destructor
